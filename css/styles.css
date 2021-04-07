@@ -1,0 +1,186 @@
+
+
+
+/* ID selectors */
+#title {
+  background-color: #ff4c68;
+  padding-bottom: 75px;
+}
+
+/* Testimonial section */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+#features {
+  padding: 7% 0;
+  background-color: #fff;
+  position: relative;
+}
+
+#pricing {
+  text-align: center;
+  padding-top: 5%;
+}
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 100px 0;
+  margin-top: auto;
+  color: #fff;
+}
+
+#footer {
+  background-color: #fff;
+}
+
+/*****fonts*****
+font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+*******/
+/* Type selectors */
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  width: 120%;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+/* Class selectors */
+/* font awesome selectors */
+.featuresicons {
+  padding-bottom: 6%;
+  color: #ef8172;
+}
+
+.featuresicons:hover {
+  color: #ff4c68;
+}
+
+/* features */
+.features {
+  text-align: center;
+  line-height: 1.5;
+}
+
+.featurestext {
+  color: #8f8f8f;
+  padding: 1%;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: lighter;
+}
+
+.nav-item {
+  padding: 0 1.125rem;
+}
+
+.navbar {
+  padding-bottom: 3.5rem;
+  padding-top: 0;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* title image */
+.iphone6 {
+  transform: rotate(25deg);
+  position: absolute;
+  margin-left: 10%;
+  margin-top: 10%;
+  width: 20%;
+}
+
+/* download buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* testimonial image */
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press logo */
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Carousel items */
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.icon-container {
+  padding: 5% 15%;
+  text-align: center;
+  margin: 0 10%;
+  word-spacing: 1rem;
+}
+
+.copyright {
+  word-spacing: normal;
+  margin-top: 3%;
+}
+.cta-btn {
+  position: relative;
+  left: 15px;
+}
+/* cta buttons */
+@media (max-width: 1028px) {
+  .iphone6 {
+    position: relative;
+    transform: rotate(0);
+    width: 100%;
+    right: 25px;
+  }
+
+  h1 {
+    position: relative;
+    right: 30px;
+    text-align: center;
+  }
+
+  .title-btn {
+    position: relative;
+    left: 20px;
+  }
+
+  .cta-btn {
+    position: relative;
+    left: 10px;
+  }
+}
